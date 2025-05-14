@@ -11,8 +11,11 @@ A real-time cryptocurrency trade simulator that estimates transaction costs, sli
 - **Market impact models**: Uses Almgren-Chriss model for optimal execution.
 - **Regression models**: Estimates slippage and predicts maker/taker roles.
 - **User-friendly interface**: Built with Streamlit for easy interaction and performance tracking.
+- Connects to OKX via WebSocket for live orderbook data.
+- Estimates slippage, fees, market impact using financial models.
+- Visual charts for slippage, latency, and net cost.
+- Reconnection and network status indicator.
 
-## Installation
 
 ### Prerequisites
 
@@ -25,12 +28,6 @@ A real-time cryptocurrency trade simulator that estimates transaction costs, sli
    ```bash
    git clone https://github.com/AbhineetKumar1/crypto-trade-simulator.git
    cd crypto-trade-simulator
-
-## Features
-- Connects to OKX via WebSocket for live orderbook data.
-- Estimates slippage, fees, market impact using financial models.
-- Visual charts for slippage, latency, and net cost.
-- Reconnection and network status indicator.
 
 ## Run Instructions
 ```bash
