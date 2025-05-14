@@ -1,0 +1,6 @@
+matplotlib>=3.8
+websocket-client
+tk
+numpy
+scikit-learn
+pandas
